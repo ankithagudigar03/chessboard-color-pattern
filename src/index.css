@@ -1,0 +1,50 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #171A21;
+  color: #FFFFFF;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px 16px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #F0D9B5;
+}
+
+.subtitle {
+  margin: -12px 0 4px;
+  color: #C4C8D0;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
